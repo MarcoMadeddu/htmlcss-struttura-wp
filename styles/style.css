@@ -1,0 +1,53 @@
+*{
+  box-sizing: border-box;
+  margin:0;
+
+}
+
+
+.main-header{
+  width: 70%;
+  margin: 0 auto;
+  background-color: red;
+  height: 100px;
+  text-align: center;
+}
+
+.menu-bar{
+  position: fixed;
+  top: 100px;
+  left: 132px;
+  width: 70%;
+  height: 30px;
+  text-align: center;
+  background: green;
+
+}
+
+.col-sx
+.col-ct
+.col-dx{
+  float: left;
+}
+
+.col-sx{
+  background-color: purple;
+  width: 30%;
+  height: 200px;
+  text-align: center;
+}
+
+.col-dx{
+  background-color: blue;
+  width: 30%;
+  height: 200px;
+  text-align: center;
+  float: right;
+}
+
+.col-ct{
+  background-color: yellow;
+  width: 30%;
+  height: 200px;
+  text-align: center;
+}
