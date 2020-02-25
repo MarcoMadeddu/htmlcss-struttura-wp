@@ -12,9 +12,9 @@ body{
   background-image: url(../images/background-pagina.png);
 }
 
-
 .main-header{
 margin-bottom: 16px;
+text-align: center;
 }
 
 .main-menu{
@@ -23,13 +23,11 @@ margin-bottom: 16px;
 
 .main-menu li {
   list-style: none;
-  display: inline block;
+  display: inline-block;
 }
 
 .main-menu li a{
   display: inline-block;
-  padding: 0 15px;
-  border-bottom: 3px solid transparent;
 }
 
 .hero{
@@ -100,7 +98,8 @@ margin-bottom: 16px;
 
 .footer-text{
   height: 40px;
-  background-color: red;
+  background-color: #ccc;
+  text-align: center;
 }
 .socials{
   padding: 0;
