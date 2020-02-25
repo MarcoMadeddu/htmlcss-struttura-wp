@@ -17,6 +17,14 @@ margin-bottom: 16px;
 text-align: center;
 }
 
+.first{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+}
+
 .main-menu{
   display: inline-block;
 }
@@ -36,17 +44,14 @@ text-align: center;
   background-position: center;
   background-image: url(../images/background-banner.jpeg);
   position: relative;
-
-
 }
 
 .main-navigation{
-
   background: #aaa;
 }
 
-.main-content::after
-{
+
+.main-content::after{
   content: "";
   display: table;
   clear: both;
@@ -61,14 +66,12 @@ text-align: center;
 
 .col{
   float: left;
-
-
 }
+
 .col-sx{
   width: 25%;
   background-color: blue;
   padding-right: 16px;
-
 }
 
 .col-sx li{
@@ -85,9 +88,7 @@ text-align: center;
   width: 25%;
   background-color: white;
   padding-left: 16px;
-
 }
-
 
 .main-footer::after
 {
